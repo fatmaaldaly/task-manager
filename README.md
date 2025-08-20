@@ -16,7 +16,7 @@ This is a basic Task Manager application built with React Native and Expo. The a
 1. **Clone the repository** (or download the source code):
 
    ```bash
-   git clone https://github.com/yourusername/task-manager-app.git
+   git clone https://github.com/yourusername/task-manager.git
    cd task-manager-app
 
    ```
