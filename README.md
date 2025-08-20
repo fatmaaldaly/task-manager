@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Simple Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Overview
 
-## Get started
+This is a basic Task Manager application built with React Native and Expo. The app allows users to create, manage, and delete tasks. It's designed to demonstrate fundamental React Native concepts, including state management with hooks, user interaction handling, and component styling.
 
-1. Install dependencies
+### App Features
+
+- **Add Task:** Type a description into the input field and press the 'Add' button to add a new task to your list.
+- **Mark as Complete:** Tap on a task in the list to toggle its completion status. Completed tasks will be visually distinguished with a strikethrough.
+- **Delete Task:** Tap the 'X' or delete icon next to a task to remove it from the list.
+- **Task List:** All tasks are displayed in a scrollable list view.
+
+### Setup and Installation
+
+1. **Clone the repository** (or download the source code):
 
    ```bash
-   npm install
+   git clone https://github.com/yourusername/task-manager-app.git
+   cd task-manager-app
+
    ```
 
-2. Start the app
+2. Install dependencies:
 
-   ```bash
-   npx expo start
-   ```
+npm install
+or
+yarn install
 
-In the output, you'll find options to open the app in a
+3. Run the app:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- For Android: npx react-native run-android
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- For iOS: npx react-native run-ios
 
-## Get a fresh project
+Or, if you’re using Expo: npx expo start
 
-When you're ready, run:
+- After starting the development server, a QR code will be displayed in your terminal. You can use the **Expo Go** app on your phone (available on the App Store and Google Play) to scan the QR code and run the app.
 
-```bash
-npm run reset-project
-```
+Alternatively, you can run it on an iOS or Android simulator by following the instructions in the terminal.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Third-Party Libraries
 
-## Learn more
+This project uses the following libraries:
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native: Core framework for building the app.
+- TypeScript: Provides type safety and better developer experience.
